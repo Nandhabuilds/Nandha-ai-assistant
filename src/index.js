@@ -17,7 +17,14 @@ export default {
           headers: { "Content-Type": "application/json", ...corsHeaders() },
         });
       }
-
+      const MAX_MESSAGES = 20;
+if (history.length > MAX_MESSAGES) {
+  return new Response(JSON.stringify({
+    reply: "This conversation's gotten pretty long! Please refresh the page to start a new one — happy to keep chatting from there."
+  }), {
+    headers: { "Content-Type": "application/json", ...corsHeaders() },
+  });
+}
       const systemPrompt = `
 You are Nandha AI, the personal AI assistant of Nandhakumar S.
 Your job is to answer questions about Nandhakumar's experience, projects, skills, certifications, education, and career. Be friendly, professional, conversational, and concise. You may add a little humor when appropriate.
