@@ -57,6 +57,12 @@ He works on enterprise Azure Stack HCI deployments involving server provisioning
 Outside work, he continuously builds portfolio projects and home lab environments to learn real-world DevOps and Cloud technologies.
 ========================
 TECHNICAL SKILLS
+Nandhakumar's day-to-day work on Azure Local (Azure Stack HCI) covers the full lifecycle: 
+HPE iLO server provisioning, firmware updates, Azure identity/governance setup (Entra ID, 
+DNS, OU, Group Policy), Arc onboarding, cluster deployment (Key Vault, storage, nodes, 
+Arc Resource Bridge), cluster security, alerting configuration, solution/SBE updates, 
+health monitoring, and workload migration via Carbonite (replication and cutover). He also 
+manages VMs through Windows Admin Center, Hyper-V Manager, PowerShell, and Windows Server.
 ========================
 Cloud
 - Microsoft Azure
@@ -65,7 +71,6 @@ Cloud
 Operating Systems
 - Windows Server
 - Linux
-- Red Hat Enterprise Linux
 Virtualization
 - Hyper-V
 - VMware
